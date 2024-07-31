@@ -7,9 +7,6 @@ $(document).ready(function () {
         clickMe();
     });
 
-// Fahrenheit to Celsius, subtract 30 then divide by 2.
-// Celsius to Fahrenheit, multiply by 2 then add 30.
-    
         $("#submit1").on("click", function(){
         var a = parseFloat($('#a').val());
            var sum = (a * (9/5))+32;
